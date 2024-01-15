@@ -1,3 +1,36 @@
-p {
-  color: rgb(17, 207, 112);
-}
+/* 
+"html is the function, aka what you want to set with the font.
+p, ul, ol, anything that could be edited with font in the parameters <> in html is editable.
+p is just basic letter
+html is global font, so what you want to have across the board. 
+*/
+html {
+    font-size: 20px;  /* declares the size */
+    font-family: 'Impress BT', sans-serif; /* declares the font */
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+p,
+li {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+html {
+    background-color: #89adce;
+  }
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f1dab6;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+img {
+    display: block;
+    margin: 0 auto;
+  }
+        
